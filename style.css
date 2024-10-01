@@ -1,0 +1,41 @@
+html {
+  background: rgb(198, 243, 224);
+  font-family: "Playwrite DE Grund";
+}
+body {
+  width: 600px;
+  background: white;
+  margin: 20px auto;
+  padding: 20px 30px 50px;
+  text-align: center;
+  border-radius: 15px;
+  border: 3px solid gray;
+}
+img {
+  width: 100px;
+  border-radius: 15px;
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+table {
+  margin: auto;
+  border-collapse: collapse;
+}
+td {
+  border: 2px solid black;
+  vertical-align: bottom;
+}
+td > p {
+  font-size: 10px;
+  padding: 10px;
+}
+img:hover {
+  opacity: 0.7;
+  transition: opacity 0.5s;
+}
+#pbj {
+  width: 130px;
+}
+#intro {
+  padding: 20px;
+}
