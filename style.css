@@ -32,10 +32,14 @@ td > p {
 img:hover {
   opacity: 0.7;
   transition: opacity 0.5s;
+  border-radius: 5px;
 }
 #pbj {
   width: 130px;
 }
 #intro {
   padding: 20px;
+}
+#mod {
+  padding-top: 9px;
 }
